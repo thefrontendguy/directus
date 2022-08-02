@@ -24,8 +24,8 @@
 	"license": "GPL-3.0-only",
 	"gitHead": "24621f3934dc77eb23441331040ed13c676ceffd",
 	"dependencies": {
-		"@directus/extensions-sdk": "workspace:*",
-		"@directus/shared": "workspace:*",
+		"@directus/extensions-sdk": "file:*",
+		"@directus/shared": "file:*",
 		"inquirer": "^8.1.2"
 	}
 }
