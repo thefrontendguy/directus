@@ -33,7 +33,7 @@ COPY . .
 RUN apk add --update python3 make g++\
    && rm -rf /var/cache/apk/*
 
-RUN pnpm install
+RUN yarn
 
 WORKDIR /directus/api
 
