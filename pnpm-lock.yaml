@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 importers:
   .:
     specifiers:
-      '@directus/shared': file:*
+      '@directus/shared': workspace:*
       '@types/jest': 27.5.2
       '@types/listr': ^0.14.4
       '@types/lodash': ^4.14.182
@@ -66,16 +66,16 @@ importers:
   api:
     specifiers:
       '@aws-sdk/client-ses': ^3.107.0
-      '@directus/app': file:*
-      '@directus/drive': file:*
-      '@directus/drive-azure': file:*
-      '@directus/drive-gcs': file:*
-      '@directus/drive-s3': file:*
+      '@directus/app': workspace:*
+      '@directus/drive': workspace:*
+      '@directus/drive-azure': workspace:*
+      '@directus/drive-gcs': workspace:*
+      '@directus/drive-s3': workspace:*
       '@directus/extensions-sdk': ^9.14.1
       '@directus/format-title': ^9.15.0
-      '@directus/schema': file:*
-      '@directus/shared': file:*
-      '@directus/specs': file:*
+      '@directus/schema': workspace:*
+      '@directus/shared': workspace:*
+      '@directus/specs': workspace:*
       '@godaddy/terminus': ^4.10.2
       '@keyv/redis': ^2.3.6
       '@otplib/preset-default': ^12.0.1
@@ -368,7 +368,7 @@ importers:
       '@directus/docs': 9.14.2
       '@directus/extensions-sdk': ^9.14.1
       '@directus/format-title': ^9.15.0
-      '@directus/shared': file:*
+      '@directus/shared': workspace:*
       '@fortawesome/fontawesome-svg-core': 1.2.36
       '@fortawesome/free-brands-svg-icons': 5.15.4
       '@fullcalendar/core': 5.11.0
@@ -573,8 +573,8 @@ importers:
 
   packages/create-directus-extension:
     specifiers:
-      '@directus/extensions-sdk': file:*
-      '@directus/shared': file:*
+      '@directus/extensions-sdk': workspace:*
+      '@directus/shared': workspace:*
       inquirer: ^8.1.2
     dependencies:
       '@directus/extensions-sdk': link:../extensions-sdk
@@ -609,7 +609,7 @@ importers:
   packages/drive-azure:
     specifiers:
       '@azure/storage-blob': ^12.6.0
-      '@directus/drive': file:*
+      '@directus/drive': workspace:*
       '@types/fs-extra': 9.0.13
       '@types/jest': 27.0.3
       '@types/node': 16.11.9
@@ -639,7 +639,7 @@ importers:
 
   packages/drive-gcs:
     specifiers:
-      '@directus/drive': file:*
+      '@directus/drive': workspace:*
       '@google-cloud/storage': ^5.8.5
       '@lukeed/uuid': 2.0.0
       '@types/fs-extra': 9.0.13
@@ -674,7 +674,7 @@ importers:
 
   packages/drive-s3:
     specifiers:
-      '@directus/drive': file:*
+      '@directus/drive': workspace:*
       '@lukeed/uuid': 2.0.0
       '@types/fs-extra': 9.0.13
       '@types/jest': 27.0.3
@@ -707,7 +707,7 @@ importers:
 
   packages/extensions-sdk:
     specifiers:
-      '@directus/shared': file:*
+      '@directus/shared': workspace:*
       '@rollup/plugin-commonjs': ^21.0.1
       '@rollup/plugin-json': ^4.1.0
       '@rollup/plugin-node-resolve': ^13.1.3
