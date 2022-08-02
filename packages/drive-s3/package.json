@@ -38,7 +38,7 @@
 		"dev": "pnpm build -w --preserveWatchOutput --incremental"
 	},
 	"dependencies": {
-		"@directus/drive": "file:*",
+		"@directus/drive": "workspace:*",
 		"aws-sdk": "^2.928.0",
 		"normalize-path": "^3.0.0"
 	},
