@@ -37,7 +37,7 @@
 		"dev": "pnpm build -w --preserveWatchOutput --incremental"
 	},
 	"dependencies": {
-		"@directus/drive": "file:*",
+		"@directus/drive": "workspace:*",
 		"@google-cloud/storage": "^5.8.5",
 		"lodash": "4.17.21",
 		"normalize-path": "^3.0.0"
