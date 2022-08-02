@@ -34,7 +34,7 @@
 		"npm": "8.10.0"
 	},
 	"devDependencies": {
-		"@directus/shared": "workspace:*",
+		"@directus/shared": "file:*",
 		"@types/jest": "27.5.2",
 		"@types/listr": "^0.14.4",
 		"@types/lodash": "^4.14.182",
